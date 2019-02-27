@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10</title>
+</head>
+<body>
+
+<p>10. Выведите столбец чисел от 11 до 33.</p>
+
+</body>
+</html>
+
+<?php
+
+for ($i = 11; $i <= 33; $i++) {
+    echo "$i <br>";
+}
+
+echo '<hr>';
+
+$m = 11;
+while ($m <= 33) {
+    echo $m;
+    echo "<br>";
+    $m++;
+}
