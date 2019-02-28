@@ -15,11 +15,20 @@
 
 <p>Введите число:</p>
 <form method="post">
-    <input type="number" name="number">
+    <input name="number">
     <input type="submit">
 </form>
 
 <?php
-//echo $_POST['number'];
+if (!empty($_POST)) {
+    echo 'Вы не ввели число!'; // Проверка на ввод пустой строки
+}
+elseif (is_int($_POST)) {  // Проверяем что это целое число
+    echo 'Это не число';
+}
+
+
+
+echo $_POST['number'];
 
 
