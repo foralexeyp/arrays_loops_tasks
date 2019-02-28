@@ -33,9 +33,6 @@ while ($i <= 10) {
     while ($a <= $i) {
         echo 'x';
         $a++;
-
-}
-
+    }
     echo "\n";
-   //
 }
