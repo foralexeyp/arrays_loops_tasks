@@ -15,10 +15,28 @@
 
 <?php
 $e = 2;
+
 $arr = [4, 2, 5, 19, 13, 0, 10];
+
 foreach ($arr as $item) {
-    if ($item == $e) {
+    if ($item === $e) {
         echo 'Есть!';
+        break;
     }
 }
-echo 'Нет!';
+
+if ($item !== $e) {
+    echo 'Нет!';
+}
+
+
+
+
+
+
+
+
+
+
+
+
