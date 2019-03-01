@@ -15,20 +15,26 @@
 
 <p>Введите число:</p>
 <form method="post">
-    <input name="number">
+    <input name="number1">
     <input type="submit">
 </form>
 
 <?php
-if (!empty($_POST)) {
-    echo 'Вы не ввели число!'; // Проверка на ввод пустой строки
+
+$n = $_POST['number1'];
+
+if (empty($n)) {
+    echo 'Пусто!';
+} elseif (!ctype_digit($n)) {
+    echo 'Нет чисел';
+} else {
+    $result = 0;
+    $arr = str_split($n);
+    foreach ($arr as $item) {
+        $result += $item;
+    }
+    echo 'Summa = ' . $result;
+
 }
-elseif (is_int($_POST)) {  // Проверяем что это целое число
-    echo 'Это не число';
-}
-
-
-
-echo $_POST['number'];
 
 
