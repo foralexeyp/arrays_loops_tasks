@@ -18,7 +18,7 @@ $week = ['понедельник', 'вторник', 'среда', 'червер
 
 foreach ($week as $item) {
     if ($item == $day) {
-        echo '<b>' . $item . '</b>'. "\n";
+        echo '<i>' . $item . '</i>'. "\n";
     }
     else {
         echo $item . "\n";
