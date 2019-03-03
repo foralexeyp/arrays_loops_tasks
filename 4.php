@@ -17,9 +17,9 @@
 $arr = array('green'=>'зеленый', 'red'=>'красный', 'blue'=>'голубой');
 
 foreach ($arr as $key => $k) {
-    echo $key."<br>";
+    echo $key."\n";
 }
 
 foreach ($arr as $element) {
-    echo $element."<br>";
+    echo $element."\n";
 }
