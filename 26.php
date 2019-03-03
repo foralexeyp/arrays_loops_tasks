@@ -29,7 +29,7 @@ foreach ($arr as $key => $value) {
     if ($value >0 && $key % 2 === 0) {
         $multiplication *= $value;
     }
-    elseif ($value > 0 && $key !== 0) {
+    elseif ($value > 0 && $key % 2 !== 0) {
         echo $value . "\n";
     }
 }
