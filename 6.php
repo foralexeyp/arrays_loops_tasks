@@ -24,10 +24,6 @@ foreach ($arr as $key => $k) {
     $en[] = $key;
     $ru[] = $k;
 }
-echo '<pre>';
-print_r($en);
-echo '</pre>';
 
-echo '<pre>';
-print_r($ru);
-echo '</pre>';
+var_dump($en);
+var_dump($ru);
