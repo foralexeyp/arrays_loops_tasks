@@ -14,14 +14,6 @@
 <?php
 
 for ($i = 11; $i <= 33; $i++) {
-    echo "$i <br>";
+    echo $i . "\n";
 }
 
-echo '<hr>';
-
-$m = 11;
-while ($m <= 33) {
-    echo $m;
-    echo "<br>";
-    $m++;
-}
