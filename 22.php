@@ -6,12 +6,12 @@
 </head>
 <body>
 
-<pre><p>22. Нарисуйте пирамиду, как показано на рисунке, воспользовавшись циклом for или while.<br><br>
+<pre>22. Нарисуйте пирамиду, как показано на рисунке, воспользовавшись циклом for или while.<br><br>
 xx<br>
 xxxx<br>
 xxxxxx<br>
 xxxxxxxx<br>
-xxxxxxxxxx</p></pre>
+xxxxxxxxxx</pre>
 
 </body>
 </html>
