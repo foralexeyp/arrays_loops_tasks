@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +16,7 @@
 
 
 echo $a;
-for ($i = 1; $i < 4; $i++) {
+for ($i = 1; $i < 5; $i++) {
     $a = rand(0, 4);
     $arr[] = $a;
 }
